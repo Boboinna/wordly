@@ -226,11 +226,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (favoriteWords.length === 0) {
       const emptyState = document.createElement("p");
-<<<<<<< HEAD
       emptyState.className = "empty";
-=======
-      emptyState.className = "empty favorite-empty";
->>>>>>> b6ab3a96fdc7c044ad7b8205abb3c42da6bfae89
       emptyState.textContent = "No favorite words saved yet";
       favorites.appendChild(emptyState);
       return;
