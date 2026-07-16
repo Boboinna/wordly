@@ -9,7 +9,10 @@
 <body>
   <!-- Navbar -->
   <nav class="navbar">
-    <h2>Wordly</h2>
+    <div>
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXdob2xlLXdvcmQtaWNvbiBsdWNpZGUtd2hvbGUtd29yZCI+PGNpcmNsZSBjeD0iNyIgY3k9IjEyIiByPSIzIi8+PHBhdGggZD0iTTEwIDl2NiIvPjxjaXJjbGUgY3g9IjE3IiBjeT0iMTIiIHI9IjMiLz48cGF0aCBkPSJNMTQgN3Y4Ii8+PHBhdGggZD0iTTIyIDE3djFjMCAuNS0uNSAxLTEgMUgzYy0uNSAwLTEtLjUtMS0xdi0xIi8+PC9zdmc+" class="logo" alt="Wordly Logo" />
+      <h2>Wordly</h2>
+    </div>
     <p>Your one page dictionary</p>
   </nav>
   <!-- Search form-->
@@ -17,7 +20,7 @@
     <form id="form">
       <div class="search">
         <label for="input">Search </label>
-        <input type="text" id="input" placeholder="Search..." autocomplete="on">
+        <input type="text" id="input" placeholder="Search..." autocomplete="on" />
         <button type="submit">Search</button>
       </div>
       <p id="message">Enter your word to display its meaning</p>
@@ -29,7 +32,7 @@
       <h2>Results</h2>
       <div id="results">
         <div>
-          <p class="empty">No word entered!!</p>
+          <p class="empty">No word entered</p>
         </div>
       </div>
     </section>
@@ -37,7 +40,6 @@
     <section class="section">
       <h2>Favorites</h2>
       <div id="favorites">
-        <p class="empty">No favorite words saved yet</p>
       </div>
     </section>
   </div>

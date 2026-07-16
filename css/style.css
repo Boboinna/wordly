@@ -42,6 +42,12 @@ body {
   opacity: 0.9;
 }
 
+.logo {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #ffffff;
+}
+
 #form {
   margin: 1rem auto;
   padding: 1rem;
@@ -102,6 +108,7 @@ body {
 section {
   margin: 1.2rem 0;
   width: 100%;
+  flex: 1;
   box-sizing: border-box;
 }
 
@@ -112,6 +119,13 @@ section {
   box-sizing: border-box;
   padding: 0 1rem;
   gap: 1rem;
+  flex-direction: column; /* xs + sm */
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row; /* Side by side on md+ */
+  }
 }
 
 .section {
@@ -258,22 +272,13 @@ section {
   border-bottom: 1px solid rgba(30, 41, 59, 0.12);
 }
 
-.meaning-item:last-child {
-  border-bottom: 0;
-  padding-bottom: 0;
-}
-
 .empty {
   height: 4rem;
   width: 100%;
   border-radius: 1rem;
   place-items: center;
+  display: grid;
   margin: 0;
   background-color: var(--bg-muted);
   box-sizing: border-box;
-}
-
-.favorite-empty {
-  display: grid;
-  place-items: center;
 }
