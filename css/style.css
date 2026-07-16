@@ -40,12 +40,15 @@ body {
 .navbar p {
   font-size: 0.95rem;
   opacity: 0.9;
+<<<<<<< HEAD
 }
 
 .logo {
   width: 2.5rem;
   height: 2.5rem;
   color: #ffffff;
+=======
+>>>>>>> b6ab3a96fdc7c044ad7b8205abb3c42da6bfae89
 }
 
 #form {
@@ -119,6 +122,7 @@ section {
   box-sizing: border-box;
   padding: 0 1rem;
   gap: 1rem;
+<<<<<<< HEAD
   flex-direction: column; /* xs + sm */
 }
 
@@ -126,6 +130,8 @@ section {
   .container {
     flex-direction: row; /* Side by side on md+ */
   }
+=======
+>>>>>>> b6ab3a96fdc7c044ad7b8205abb3c42da6bfae89
 }
 
 .section {
@@ -270,6 +276,14 @@ section {
   gap: 0.35rem;
   padding-bottom: 0.65rem;
   border-bottom: 1px solid rgba(30, 41, 59, 0.12);
+<<<<<<< HEAD
+=======
+}
+
+.meaning-item:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+>>>>>>> b6ab3a96fdc7c044ad7b8205abb3c42da6bfae89
 }
 
 .empty {
@@ -277,8 +291,16 @@ section {
   width: 100%;
   border-radius: 1rem;
   place-items: center;
+<<<<<<< HEAD
   display: grid;
+=======
+>>>>>>> b6ab3a96fdc7c044ad7b8205abb3c42da6bfae89
   margin: 0;
   background-color: var(--bg-muted);
   box-sizing: border-box;
+}
+
+.favorite-empty {
+  display: grid;
+  place-items: center;
 }
