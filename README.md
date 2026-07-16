@@ -1,1 +1,2 @@
-# spa-wordly
+# Wordly Dictionary SPA
+

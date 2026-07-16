@@ -1,0 +1,87 @@
+:root {
+  /* --- Light mode --- */
+  --bg-color: #dbeafe;
+  --text-color: #1e293b;
+  --nav-bg: #2563eb;
+  --bg-muted: #bfdbfe;
+  --nav-text: #ffffff;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.navbar {
+  justify-content: space-between;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding: 6px 20px;
+  background-color: var(--nav-bg);
+  color: var(--nav-text);
+}
+
+#form {
+  margin: 1rem;
+  padding: 1rem;
+  display: center;
+  border-radius: 1rem;
+  background-color: var(--bg-muted);
+  justify-items: center;
+}
+
+section {
+  margin: 1.2rem 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  gap: 1rem;
+
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+#results,
+#favorites {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  background-color: var(--bg-muted);
+  padding: 1rem;
+}
+
+.result-card {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+
+.empty {
+  height: 4rem;
+  width: 100%;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 0;
+  background-color: var(--bg-muted);
+  box-sizing: border-box;
+}
