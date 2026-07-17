@@ -94,7 +94,6 @@ body {
   color: var(--nav-text);
   font: inherit;
   cursor: pointer;
-  transition: transform 0.15s ease, filter 0.15s ease;
 }
 
 #form button:hover {
@@ -102,7 +101,7 @@ body {
 }
 
 #form button:active {
-  transform: translateY(1px);
+  transform: translateY(-1px);
 }
 
 section {

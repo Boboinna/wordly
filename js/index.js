@@ -62,7 +62,9 @@ document.addEventListener("DOMContentLoaded", () => {
       console.log(error);
       displayError("There was an error encountered. Please try another word.", "red");
       const placeholder = document.createElement("p");
+      placeholder.innerHTML = "";
       placeholder.textContent = "Search for a word to see results.";
+      placeholder.className = "empty";
       results.appendChild(placeholder);
     }
   }
